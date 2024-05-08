@@ -1,0 +1,65 @@
+.todo-List {
+    height: 65vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-List form {
+    margin-top: 10px;
+}
+
+.todo-List input {
+    font-size: 1.5rem;
+    width: 45vh;
+    border-radius: 25px;
+    border: none;
+    height: 4vh;
+}
+.todo-List input:focus {
+    outline: none;
+}
+
+.todo-List ::placeholder {
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.list-items {
+    margin-top: 10px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+}
+.list-id {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 3vh;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.list-value {
+    font-size: 2rem;
+}
+
+.list-btn {
+    margin-right: 2%;
+}
+
+.lists button {
+    margin: 5px;
+    width: 7vh;
+    border-radius: 15px;
+    background-color: transparent;
+}

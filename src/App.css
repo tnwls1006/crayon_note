@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+    font-family: var(--font-HiMelody);
+}
+
+.App-body {
+    background-color: #eee0c9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.Memo-body {
+    width: 80%;
+    height: 80vh;
+    background-color: #f1f0e8;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #b4b4b8;
+}

@@ -1,0 +1,55 @@
+.Start_Page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.Mode {
+    position: absolute;
+    top: 5vh;
+}
+
+.Mode-Btn {
+    position: absolute;
+    top: 7vh;
+    right: 0;
+    width: 10vh;
+    height: 4vh;
+    font-size: 2rem;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    position: relative;
+    font-size: 6.5rem;
+    text-align: center;
+    margin-top: 20vh;
+}
+.Title p:first-child {
+    position: relative;
+    left: -50%;
+    margin-right: calc(50% - 1em);
+}
+
+.Title p:nth-child(2) {
+    position: absolute;
+    top: 5vh;
+    left: calc(80%);
+}
+
+.Start_Btn {
+    position: absolute;
+    font-size: 3.5rem;
+    margin-top: 40vh;
+}
+.Start_Btn button {
+    width: 15vh;
+    background-color: #adc4ce;
+    border: none;
+    border-radius: 25px;
+}

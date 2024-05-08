@@ -1,0 +1,19 @@
+.change-Btn {
+    margin-left: 2vh;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-content: center;
+}
+.change-Btn button {
+    font-size: 2rem;
+    width: 20vh;
+    height: 5vh;
+    border: 1px solid black;
+    background-color: #f1f0e8;
+    line-height: 5vh;
+}
+
+.change-Btn button:active {
+    background-color: #eee0c9;
+}
