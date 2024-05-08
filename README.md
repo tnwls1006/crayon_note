@@ -1,3 +1,8 @@
+-   git init
+-   git branch -M main
+-   git remote add origin https://github.com/tnwls1006/crayon_note.git
+-   git push -u origin main
+
 ## 240325 다크모드 수정중
 
 -   버튼 클릭 시, 글씨 색상만 흰색 <-> 검은색으로 변경되고 배경은 변경안됨
